@@ -34,14 +34,23 @@ body {
   flex-grow: 1;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .task-name {
   font-size: 35px;
   border-bottom: 3px solid white;
   padding-bottom: 20px;
 }
 
-.id {
-  color: white;
+.template {
+  width: 100%;
+}
+
+.template-string {
+  /*Change Bootrstrap*/
+  border-radius: 5px !important;
 }
 
 .btn-add,
